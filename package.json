@@ -2,10 +2,11 @@
   "name": "sweet-modal-react",
   "version": "1.0.1",
   "description": "A flexible modal library for React",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsup src/index.ts --format cjs,esm --dts --out-dir dist"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
@@ -17,7 +18,8 @@
   "devDependencies": {
     "@types/react": "^18.0.0",
     "@types/uuid": "^8.3.4",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "tsup": "^8.2.4"
   },
   "license": "MIT",
   "repository": {
