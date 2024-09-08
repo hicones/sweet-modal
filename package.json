@@ -1,9 +1,9 @@
 {
-  "name": "sweet-modal-react",
-  "version": "1.0.1",
+  "name": "hicones-sweet-modal",
+  "version": "0.0.1",
   "description": "A flexible modal library for React",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --out-dir dist"
