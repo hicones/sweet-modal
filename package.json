@@ -1,6 +1,6 @@
 {
   "name": "react-sweet-modal",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A flexible modal library for React",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
