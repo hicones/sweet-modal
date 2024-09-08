@@ -18,5 +18,17 @@
     "@types/react": "^18.0.0",
     "@types/uuid": "^8.3.4",
     "typescript": "^4.7.4"
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hicones/sweet-modal"
+  },
+  "keywords": [
+    "react",
+    "modal",
+    "sweet",
+    "library"
+  ],
+  "author": "hicones"
 }
