@@ -1,5 +1,5 @@
 {
-  "name": "react-sweet-modal",
+  "name": "sweet-modal-react",
   "version": "1.0.0",
   "description": "A flexible modal library for React",
   "main": "dist/index.js",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hicones/sweet-modal"
+    "url": "git+https://github.com/hicones/sweet-modal.git"
   },
   "keywords": [
     "react",
