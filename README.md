@@ -5,6 +5,8 @@
 
 Sweet Modal React is a lightweight, customizable modal library for React applications. It provides an easy-to-use API for showing modals while allowing full customization of the modal's appearance and behavior.
 
+This library is inspired by the simplicity and flexibility of [shadcn's Sonner](https://github.com/emilkowalski/sonner) toast library and the powerful features of [SweetAlert2](https://sweetalert2.github.io/). We've combined these inspirations to create a modal system that is both easy to use and highly customizable.
+
 ## Features
 
 - Simple API for showing and closing modals
